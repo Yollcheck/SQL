@@ -1,6 +1,6 @@
 select em.department_id, 
 (select dp.department_name from hr.departments dp where em.department_id = dp.department_id) as depart_name,
-count(em.employee_id) as "кол-во сотрудников"
+count(em.employee_id) as "ГЄГ®Г«-ГўГ® Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ®Гў"
 from hr.employees em
 group by em.department_id
 having count(em.employee_id)>=30
@@ -8,4 +8,4 @@ having count(em.employee_id)>=30
 
 
 
--- Показать название департаментов в которых работают больше 30ти сотрудников
+-- РџРѕРєР°Р·Р°С‚СЊ РЅР°Р·РІР°РЅРёРµ РґРµРїР°СЂС‚Р°РјРµРЅС‚РѕРІ РІ РєРѕС‚РѕСЂС‹С… СЂР°Р±РѕС‚Р°СЋС‚ Р±РѕР»СЊС€Рµ 30С‚Рё СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ
