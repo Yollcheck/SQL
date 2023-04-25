@@ -8,4 +8,4 @@ order by em.first_name;
 
 
 
--- Показать сотрудников в формате: First_name, Job_title, Department_name
+--РџРѕРєР°Р·Р°С‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ РІ С„РѕСЂРјР°С‚Рµ: First_name, Job_title, Department_name
