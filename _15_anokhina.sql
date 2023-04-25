@@ -12,5 +12,5 @@ from hr.employees  em
        left join regions rg on (cn.region_id = rg.region_id)
 order by em.employee_id
 ;
--- 14. Получить детальную информацию о каждом сотруднике:
+-- РџРѕР»СѓС‡РёС‚СЊ РґРµС‚Р°Р»СЊРЅСѓСЋ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РєР°Р¶РґРѕРј СЃРѕС‚СЂСѓРґРЅРёРєРµ:
 --First_name,Last_name,Department_name,Job_id,street_address,Country_name,Region_name;
