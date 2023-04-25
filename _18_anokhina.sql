@@ -1,4 +1,4 @@
-select dp.department_name as департамент, count (*) as количество 
+select dp.department_name as Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІ, count (*) as ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® 
     from hr.employees em 
     join hr.departments dp 
     on (em.department_id = dp.department_id)
@@ -10,4 +10,4 @@ order by count (*);
 
 
 
--- Показать название департаментов в которых работают больше 30ти сотрудников;
+--РџРѕРєР°Р·Р°С‚СЊ РЅР°Р·РІР°РЅРёРµ РґРµРїР°СЂС‚Р°РјРµРЅС‚РѕРІ РІ РєРѕС‚РѕСЂС‹С… СЂР°Р±РѕС‚Р°СЋС‚ Р±РѕР»СЊС€Рµ 30С‚Рё СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ;
